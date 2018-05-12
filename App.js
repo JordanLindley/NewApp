@@ -43,11 +43,11 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#212020',
     alignItems: 'center',
-    marginTop: '20%',
-    marginEnd: '5%',
-    marginStart: '5%',
+    paddingTop: '20%',
+    paddingEnd: '5%',
+    paddingStart: '5%',
   },
   button: {
     height: '80%',
@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 42,
+    color: '#EEFEFE',
     marginBottom: 20
   },
   message: {
@@ -68,6 +69,8 @@ const styles = StyleSheet.create({
     marginStart: 20,
     marginEnd: 20,
     fontSize: 28,
+    color: '#EEFEFE',
+    backgroundColor: '#343435',
     marginBottom: 20,
     borderColor: '#EF7177',
     borderWidth: 3,
